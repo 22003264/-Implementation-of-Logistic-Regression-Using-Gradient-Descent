@@ -21,8 +21,7 @@ To write a program to implement the the Logistic Regression Using Gradient Desce
 Program to implement the the Logistic Regression Using Gradient Descent.
 Developed by: Sirisha Reddy
 RegisterNumber: 212222230103
-*/
-```
+
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy import optimize
@@ -108,6 +107,8 @@ def predict(theta, X):
   return (prob >= 0.5).astype(int)
 
 np.mean(predict(res.x,X)==y)
+*/
+```
 ## Output:
 ![image](https://user-images.githubusercontent.com/119389139/233685454-0adb4b94-f3fd-4e97-b8aa-6fcefb043d74.png)
 
